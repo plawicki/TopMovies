@@ -1,0 +1,21 @@
+<% include header %>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Rating</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for(var i=0; i<data.length; i++) { %>
+            <tr>
+                <td><%= data[i].title %></td>
+                <td><%= data[i].vote_average %></td>
+                <td><a class="btn btn-xs" href='/movie/:<%= data[i].id %>'>Details</a></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
+<% include footer %>

@@ -1,0 +1,35 @@
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.legendColor
+{
+	width: 30px;
+	height: 30px;
+	padding-left: 30px;
+	margin-bottom: 5px;
+}
+
+.legendColor div
+{
+	margin-left: 4px;
+	font-size: 20px;
+}
+
+#legend
+{
+	text-align: left;
+}
+
+.thumbnail 
+{
+	border: none; 
+	text-align: center;
+}
+
+.thumbnail h2
+{
+	margin-bottom: 20px;
+}
